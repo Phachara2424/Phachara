@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Input {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your First Name : ");
+		String name = sc.nextLine(); 
+		System.out.println("Enter Your Last Name : ");
+		String lastname = sc.nextLine(); 
+		System.out.println("Enter Your Class : ");
+		int room = sc.nextInt();
+		System.out.println("Enter Your Room : ");
+		int r = sc.nextInt();
+		System.out.println("Enter Your Number : ");
+		int num = sc.nextInt();
+		System.out.println("Hello" + " +name + " + " lastname ");
+
+	}
+
+}
